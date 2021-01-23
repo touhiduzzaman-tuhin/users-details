@@ -1,0 +1,50 @@
+/* *{
+    outline:none;
+} */
+#main-body{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+#loadUser{
+    float: right;
+}
+.buttonDetails{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: salmon;
+    border: none;
+    color: gray;
+}
+.buttonDetails:hover{
+    background-color: steelblue;
+    color: white;
+}
+.buttonDetails:focus {
+    border: none;
+    outline: none;
+}
+#userDetails{
+    margin-top: 80px;
+    text-align: center;
+}
+#userInformations{
+    border: 1px solid gray;
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightsalmon;
+    color: white;
+    /* border: none; */
+    box-shadow: 10px 10px 40px gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#userInformations h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.name{
+    margin-top: 20px;
+}
+/* #userInformations h3:first-child{
+    margin-top: 20px;
+} */
